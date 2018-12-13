@@ -1,0 +1,15 @@
+metadata:
+  creationTimestamp: null
+  labels:
+    run: docker-spring-boot
+  name: docker-spring-boot
+spec:
+  ports:
+  - port: 8085
+    protocol: TCP
+    targetPort: 8085
+  selector:
+    run: docker-spring-boot
+  type: NodePort
+status:
+  loadBalancer: {}

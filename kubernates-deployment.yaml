@@ -1,0 +1,13 @@
+--------
+kind:Deployment
+Name: docker-ex,
+InstanceCount: 1,
+ApplicationName: docker-ex,
+ImageName: buildregistry.na03.bhge.com/docker-ex,
+ContainerName: docker-ex,
+ContainerPort: 8080,
+CPU: 1024,
+Memory: 1024,
+OS: "linux"
+metadata:
+ namespace: default

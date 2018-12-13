@@ -1,0 +1,24 @@
+metadata:
+  creationTimestamp: null
+  labels:
+    run: docker-spring-boot
+  name: docker-spring-boot
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      run: docker-spring-boot
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        run: docker-spring-boot
+    spec:
+      containers:
+      - image: docker-spring-boot:v1
+        name: docker-spring-boot
+        ports:
+        - containerPort: 8085
+        resources: {}
+status: {}

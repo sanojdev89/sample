@@ -1,0 +1,542 @@
+    1  ls
+    2  mkdir CloudFoundryLocal
+    3  cd  CloudFoundryLocal
+    4  ls
+    5  dir
+    6  ls
+    7  pwd
+    8  sudo apt -get update
+    9  sudo apt-get update
+   10  sudo apt-get install virtualbox
+   11  vmanage -v
+   12  vboxmanage -v 
+   13  virtualbox
+   14  clear
+   15  apr-cache search cloudfoundry
+   16  apt-cache search cloudfoundry
+   17  apt-cache search Cloud Foundry Command Line Interface
+   18  apt-cache search 
+   19  apt-cache search Cloud Foundry
+   20  clear
+   21  sudo apt-get install cf-cli
+   22  wget -q -O - https://packages.cloudfoundry.org/debian/cli.cloudfoundry.org.key | sudo apt-key add -
+   23  echo "deb https://packages.cloudfoundry.org/debian stable main" | sudo tee /etc/apt/sources.list.d/cloudfoundry-cli.list
+   24  sudo apt-get update
+   25  sudo apt-get install cf-cli
+   26  cf -v
+   27  clear
+   28  unzip pcfdev-v0.29.0_PCF1.11.0-linux.zip
+   29  ./pcfdev-VERSION-linux
+   30  ./pcfdev-v0.29.0+PCF1.11.0-linux 
+   31  cf dev start
+   32  sudo systemctrl hibernate
+   33  sudo nano /etc/polkit-1/localauthority/50-local.d/com.ubuntu.enable-hibernate.pkla
+   34  shutdown
+   35  shutdown reboot
+   36  sudo reboot
+   37  bosh -v
+   38  vagrant -v
+   39  sudo vagrant -v
+   40  vagrant -v
+   41  vmanage -v
+   42  pwd
+   43  ls
+   44  cd cloudfoundrylocal
+   45  cd CloudFoundryLocal
+   46  ls
+   47  vagrant -v
+   48  git
+   49  sudo apt install git
+   50  git -v
+   51  git -- version
+   52  git --version
+   53  ls
+   54  cd CloudFoundryLocal/
+   55  ls
+   56  git clone https://github.com/cloudfoundry/bosh-lite
+   57  cd bosh-lite/
+   58  ls
+   59  vagrant up --provider=virtualbox
+   60  bosh target 192.168.50.4 lite
+   61  sudo apt install bosh
+   62  bosh -v
+   63  bosh-lite -v
+   64  bosh target 192.168.50.4 lite
+   65  ls
+   66  cd ..
+   67  ls
+   68  bosh -v
+   69  cls
+   70  clear
+   71  bosh target 192.168.50.4 lite
+   72  vagrant -help
+   73  vagrant -global-status
+   74  vagrant -status
+   75  vagrant status
+   76  bosh-init
+   77  bosh -v
+   78  bosh_cli
+   79  sudo apt install bosh_cli
+   80  bosh target 192.168.50.4 lite
+   81  cd bosh-lite/
+   82  vagrant up --provider=virtualbox
+   83  vagrant --provision
+   84  vagrant provision
+   85  vagrant up --provider=virtualbox
+   86  vagrant status
+   87  vagrant hault
+   88  vagrant list-commands
+   89  vagrant up --provider=virtualbox
+   90  ls
+   91  clear
+   92  sudo apt-get update
+   93  uname -r
+   94  sudo apt-get install     apt-transport-https     ca-certificates     curl     software-properties-common
+   95  $ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+   96  sudo apt-key fingerprint 0EBFCD88
+   97  sudo add-apt-repository    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+   98     $(lsb_
+   99  sudo apt-get update
+  100  sudo apt-get install docker-ce
+  101  sudo apt-get update
+  102  clear
+  103  sudo apt-get install apt-transport-http
+  104  sudo apt-key adv --keyserver hkp:/p80.pool.sks-keyservers.net.80 --recv-keys 58118E9F3A912897C070ABF76221572C526090
+  105  sudo apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 58118E89F3A912897C070ADBF76221572C526090
+  106  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+  107  sudo apt-key fingerprint 0EBFCD88
+  108  sudo add-apt-repository    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+  109     $(lsb_release -cs) \
+  110     stable"
+  111  CLEAR
+  112  clear
+  113  sudo apt-get update
+  114  clear
+  115  sudo apt-get install docker-ce
+  116  sudo apt-get install apt-transport-https ca-certificates curl software-properties-common
+  117  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+  118  sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu xenial stable"
+  119  sudo apt-get update
+  120  apt-cache search docker-ce
+  121  sudo apt-get install docker-ce
+  122  docker
+  123  clear
+  124  sudo tar -xvf spring-tool-suite-3.7.0.RELEASE-e4.5-linux-gtk-x86_64.tar.gz
+  125  sudo apt install chromium-browser
+  126  pwd
+  127  cd manjit/
+  128  cd Manjit
+  129  cd STS
+  130  ls
+  131  lear
+  132  clear
+  133  sudo tar -xvf spring-tool-suite-3.7.0.RELEASE-e4.5-linux-gtk-x86_64.tar.gz
+  134  sudo tar -xvf spring-tool-suite-3.9.4.RELEASE-e4.7.3a-linux-gtk-x86_64.tar.gz
+  135  clear
+  136  sudo apt-get update
+  137  sudo apt-get install default-jre
+  138  sudo apt-get install default-jdk
+  139  java -v
+  140  java
+  141  java -version
+  142  maven
+  143  clear
+  144  sudo apt-get update -y
+  145  sudo nano /etc/profile.d/mavenenv.sh
+  146  pwd
+  147  cd manjit
+  148  ls
+  149  cd Manjit
+  150  dir
+  151  sudo nano /etc/profile.d/mavenenv.sh
+  152  mvn
+  153  sudo nano /etc/profile.d/mavenenv.sh
+  154  sudo chmod +x /etc/profile.d/mavenenv.sh
+  155  sudo source /etc/profile.d/mavenenv.sh
+  156  mvn
+  157  sudo apt install maven
+  158  mvn
+  159  mvn -v
+  160  pwd
+  161  cd manjit
+  162  ls
+  163  cd Manjit
+  164  cd ..
+  165  cd Manjit
+  166  dir
+  167  cd samples
+  168  dir
+  169  cd docker-spring-boot
+  170  ls
+  171  mvn 
+  172  mvn complile
+  173  mvn help
+  174  mvn -help
+  175  mvn clean install
+  176  clear
+  177  sudo /var/lib/dpkg/info/ca-certificates-java.postinst configure
+  178  mvn clean install
+  179  update-ca-certificates -f
+  180  sudo apt-get install ca-certificates-java
+  181  java -version
+  182  sudo update-alternatives --config java
+  183  sudo apt-get install oracle-java8-installer
+  184  sudo update-alternatives --config java
+  185  sudo nano /etc/environment
+  186  source /etc/environment
+  187  echo $JAVA_HOME
+  188  clear
+  189  apt-get update && apt-get upgrade
+  190  apt-get install default-jdk
+  191  java -version
+  192  ls
+  193  cd Manjit
+  194  cd Sample
+  195  ls
+  196  cd samples
+  197  dir
+  198  cd docker-spring-boot/
+  199  dir
+  200  clear
+  201  mvn clean install
+  202  java -version
+  203  mvn clean install
+  204  source /etc/environment
+  205  mvn clean install
+  206  ls
+  207  pwd
+  208  cd ..
+  209  pwd
+  210  ls
+  211  cd ..
+  212  ls
+  213  cd etc
+  214  ls
+  215  gedit environment
+  216  echo $JAVA_HOME
+  217  source /etc/environment
+  218  echo $JAVA_HOME [A
+  219  gedit environment
+  220  nano environment
+  221  cd ..
+  222  pwd
+  223  cd env
+  224  ls
+  225  cd dev
+  226  ls
+  227  ccd ..
+  228  cd ..
+  229  ls
+  230  cd etc
+  231  dir
+  232  cd environment
+  233  dir
+  234  cd environment
+  235  nano environment
+  236  cd 
+  237  pwd
+  238  nano /etc/environment
+  239  ls -r /etc/environment
+  240  ls -r /etc/
+  241  ls -help
+  242  ls -h
+  243  ls ?
+  244  ls -l /etc/
+  245  ls -l /etc/environment
+  246  cat /etc/environment
+  247  ls -l /etc/environment
+  248  sudo chmod ugo+rw /etc/environment 
+  249  ls -l /etc/environment
+  250  nano /etc/environment
+  251  cd
+  252  pwd
+  253  cd Manjit
+  254  cd samples/
+  255  pwd
+  256  ls
+  257  cd docker-spring-boot/
+  258  ls
+  259  clear
+  260  mvn clean install
+  261  cd 
+  262  cd ../..
+  263  cd etc
+  264  ls
+  265  java -v
+  266  java -version
+  267  java-help
+  268  java
+  269  cd /usr
+  270  ls
+  271  cd lib
+  272  ls
+  273  cd jvm
+  274  ls
+  275  java -v
+  276  java -version
+  277  javac
+  278  java -version
+  279  ls
+  280  cd default-java
+  281  ls
+  282  cd ..
+  283  cd 
+  284  gedit /etc/environment
+  285  source /etc/environment
+  286  echo $JAVA_HOME
+  287  java -version
+  288  cd
+  289  pwd
+  290  cd Manjit
+  291  cd samples/
+  292  pwd
+  293  ls
+  294  cd docker-spring-boot/
+  295  mvn clean install
+  296  java -version
+  297  source /etc/environment [B
+  298  source /etc/environment 
+  299  java -version
+  300  mvn clean install
+  301  sudo update-ca-certificates -f
+  302  mvn clean install
+  303  clear
+  304  sudo update-ca-certificates -f
+  305  sudo apt-get install --reinstall ca-certificates-java
+  306  mvn clean install
+  307  cd /
+  308  mvn -version
+  309  source /etc/environment
+  310  mvn -version
+  311  cd /usr/share/maven
+  312  ls
+  313  cd bin
+  314  ls
+  315  cd ..
+  316  cd cong
+  317  cd conf
+  318  ls
+  319  ls -l s*
+  320  gedit settings.xml
+  321  cd /
+  322  ls
+  323  cd env
+  324  cd etc
+  325  ls
+  326  echo $JAVA_HOME
+  327  cd /usr/lib/jvm
+  328  ls
+  329  java -version
+  330  sudo update-alternatives --display java
+  331  gedit /usr/environment
+  332  clear
+  333  sudo update-alternatives --remove-all java
+  334  sudo update-alternatives --remove-all javac
+  335  sudo update-alternatives --remove-all javaws
+  336  sudo rm -rf /user/lib/jvm/*
+  337  sudo rm -rf /usr/lib/jvm/*
+  338  ls  /usr/lib/jvm/*
+  339  Java -version
+  340  echo $JAVA_HOME
+  341  ls usr/lib/jvm
+  342  ls /usr/lib/jvm
+  343  ls /usr/lib/
+  344  clear
+  345  cd
+  346  sudo apt-get update
+  347  clear
+  348  sudo apt-get install default-jre
+  349  sudo apt-get install default-jdk
+  350  java -version
+  351  sudo apt-get install oracle-java8-installer
+  352  lear
+  353  clear
+  354  sudo apt-get install default-jre
+  355  exit
+  356  sudo apt-get install default-jre
+  357  sudo apt-get    install default-jre
+  358  pwd
+  359  cd
+  360  cd jre-8u171-linux-x64/
+  361  cd bin
+  362  ls
+  363  cd
+  364  cd jre1.8.0_171/
+  365  ls
+  366  cd bin
+  367  java -version
+  368  ls
+  369  java 
+  370  ./java
+  371  ./java -version
+  372  cd ..
+  373  pwd
+  374  exit
+  375  java
+  376  source /etc/environment 
+  377  java -version
+  378  echo $JAVA_HOME
+  379  source /etc/environment 
+  380  echo $JAVA_HOME
+  381  java -version
+  382  apt install openjdk-8-jre-headless
+  383  cd 
+  384  cd jre1.8.0_171/
+  385  cd bin
+  386  java -version
+  387  ./java -version
+  388  clear
+  389  sudo apt-get update
+  390  sudo apt-get install default-jre
+  391  sudo apt-get install default-jdk
+  392  sudo add-apt-repository ppa:webupd8team/java
+  393  sudo apt-get update
+  394  java -version
+  395  apt-get update && apt-get upgrade
+  396  apt-get update 
+  397  sudo apt-get update
+  398  sudo apt-get install default-jre
+  399  cd /usr
+  400  ls
+  401  cd lib
+  402  ls
+  403  cd jvm
+  404  ls
+  405  pwd
+  406  cd ..
+  407  rem jvm
+  408  rm -r jvm
+  409  rm -rw jvm
+  410  rm -rf jvm
+  411  cd jvm
+  412  ls
+  413  ls -h
+  414  la -a
+  415  ls -l -a
+  416  chmod 777 *
+  417  chmod 777 *.*
+  418  chmod 777 .java-1.11.0-openjdk-amd64.jinfo
+  419  find . -type d -exec chmod 755 {} \;
+  420  cd .java-1.11.0-openjdk-amd64.jinfo
+  421  cd ..
+  422  ls
+  423  sudo apt-get update
+  424  sudo apt-get install default-jre
+  425  ls
+  426  cd jvm
+  427  ls
+  428  sudo apt-get install default-jdk
+  429  sudo apt-get install oracle-java8-installer
+  430  ls
+  431  sudo update-alternatives --config java
+  432  java -version
+  433  sudo update-alternatives --config java
+  434  sudo update-alternatives --config command
+  435  sudo update-alternatives --config 
+  436  sudo update-alternatives --config command
+  437  sudo update-alternatives --config java
+  438  ls
+  439  cd java-8-oracle/
+  440  source /etc/environment
+  441  echo JAVA_HOME
+  442  echo $JAVA_HOME
+  443  javac
+  444  cd
+  445  cd Manjit
+  446  ls
+  447  cd samples
+  448  cd
+  449  ls
+  450  cd Manjit/sample
+  451  cd Manjit
+  452  cd sample
+  453  cd samples
+  454  ls
+  455  cd docker-spring-boot/
+  456  ls
+  457  mvn clean install
+  458  mvn clean install -X
+  459  cd /usr/lib
+  460  ls
+  461  cd jvn
+  462  cd jvm
+  463  ls
+  464  cd java-8-oracle/
+  465  ls
+  466  cd bin
+  467  ls
+  468  ls s*
+  469  cd ..
+  470  ls
+  471  cd lib
+  472  ls
+  473  cd ..
+  474  find . -type f -name "server.xml"
+  475  find / -type f -name "server.xml"
+  476  sudo find . -print | grep -i '.*[.]xml'
+  477  sudo find . -print | grep -i '.s*[.]xml'
+  478  sudo find . -print | grep -i 's*[.]xml'
+  479  sudo find . -print | grep -i 'server[.]xml'
+  480  sudo find . -print | grep -i 'server.xml'
+  481  sudo find . -print | grep -i 's*.xml'
+  482  clear
+  483  sudo find . -print | grep -i 's*.xml'
+  484  clear
+  485  sudo dpkg --purge --force-depends ca-certificates-java
+  486  sudo apt-get install ca-certificates-java
+  487  cd
+  488  cd Manjit/samples
+  489  ls
+  490  cd docker-spring-boot/
+  491  ls
+  492  mvn clean install
+  493  ls
+  494  clear
+  495  docker
+  496  sudo docker run hellow-world
+  497  docker -version
+  498  docker version
+  499  sudo docker images
+  500  docker
+  501  clear
+  502  docker run hello-world
+  503  Got permission denied while trying to connect to the Docker daemon socket at unix:///var/run
+  504  sudo usermod -a -G docker $USER
+  505  docker run hello-world
+  506  exit
+  507  docker run hello-world
+  508  cd /home/user/Manjit/samples/springboot/demo/src/main/java
+  509  ls
+  510  cd ..
+  511  ls
+  512  rem target
+  513  rmdir target
+  514  rmdir -r target
+  515  rmdir 
+  516  rmdir --help
+  517  s
+  518  ls
+  519  mvn clean paclage
+  520  mvn clean package
+  521  docker
+  522  docker -v
+  523  clear
+  524  ls
+  525  docker --help
+  526  docker build -f Dockerfile -t docker-spring-boot .
+  527  docker login
+  528  clear
+  529  docker build -f Dockerfile -t docker-spring-boot .
+  530  docker images
+  531  clear
+  532  docker run -p 8085:8085 docker-spring-boot.jar
+  533  docker image
+  534  docker images
+  535  docker run -p 8085:8085 docker-spring-boot
+  536  docker build -f Dockerfile -t docker-spring-boot .
+  537  clear
+  538  docker build -f Dockerfile -t docker-spring-boot .
+  539  docker images
+  540  docker run -p 8085:8085 docker-spring-boot
+  541  history
+  542  history > file
