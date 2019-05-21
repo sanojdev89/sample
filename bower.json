@@ -15,9 +15,9 @@
         "README.md"
     ],
     "dependencies": {
-        "jquery": ">=1.10.2"
+       
     },
     "devDependencies": {
-        "jquery-mockjax": "~1.5.2"
+
     }
 }
