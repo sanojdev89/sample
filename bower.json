@@ -1,5 +1,5 @@
 {
-    "name": "sanojpack",
+    "name": "sanojnewpack",
     "version": "0.0.1",
     "main": "dist/sanojpack.js",
     "ignore": [
@@ -15,8 +15,7 @@
         "README.md"
     ],
     "dependencies": {
-        "jquery": ">=1.10.2",
-        "underscore": "~1.5.2"
+        "jquery": ">=1.10.2"
     },
     "devDependencies": {
         "jquery-mockjax": "~1.5.2"
