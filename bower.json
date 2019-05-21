@@ -1,5 +1,5 @@
 {
-    "name": "sanojnewpack",
+    "name": "sanojtestpack",
     "version": "0.0.1",
     "main": "dist/sanojpack.js",
     "ignore": [
