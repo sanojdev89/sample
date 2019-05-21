@@ -1,7 +1,7 @@
 {
-    "name": "YourAwesomePackageName",
+    "name": "sanojpack",
     "version": "0.0.1",
-    "main": "dist/your-awesome-js-module.js",
+    "main": "dist/sanojpack.js",
     "ignore": [
         "source",
         "spec",
