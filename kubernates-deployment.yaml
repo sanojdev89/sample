@@ -3,7 +3,7 @@ kind:Deployment
 Name: docker-ex,
 InstanceCount: 1,
 ApplicationName: docker-ex,
-ImageName: buildregistry.na03.bhge.com/docker-ex,
+ImageName: buildregistry.com/docker-ex,
 ContainerName: docker-ex,
 ContainerPort: 8080,
 CPU: 1024,
